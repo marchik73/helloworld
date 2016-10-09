@@ -1,2 +1,3 @@
-# helloworld
-test hello world for tc and sonarqube
+# hello-world-tc-sonar
+
+dummy hello world project for testing
