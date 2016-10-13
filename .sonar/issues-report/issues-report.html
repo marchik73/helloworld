@@ -9,9 +9,37 @@
   <script type="text/javascript">
     var issuesPerResource = [
       [
+          {'k': 'AVe4ht4Ubh2qGH_m0opP', 'r': 'Rsquid:S1228', 'l': 0, 'new': false, 's': 'minor'}
       ]
       ,
       [
+          {'k': '0157C00E318A19DC01', 'r': 'Rsquid:S106', 'l': 9, 'new': true, 's': 'major'},
+          {'k': '0157C00E318A19DC02', 'r': 'Rsquid:S106', 'l': 10, 'new': true, 's': 'major'},
+          {'k': '0157C00E318A19DC03', 'r': 'Rsquid:S106', 'l': 11, 'new': true, 's': 'major'},
+          {'k': '0157C00E318A19DC04', 'r': 'Rsquid:S106', 'l': 12, 'new': true, 's': 'major'},
+          {'k': '0157C00E318A19DC05', 'r': 'Rsquid:S106', 'l': 13, 'new': true, 's': 'major'},
+          {'k': '0157C00E318A19DC06', 'r': 'Rsquid:S106', 'l': 14, 'new': true, 's': 'major'},
+          {'k': '0157C00E318A19DC07', 'r': 'Rsquid:S106', 'l': 15, 'new': true, 's': 'major'},
+          {'k': '0157C00E318A19DC08', 'r': 'Rsquid:S106', 'l': 16, 'new': true, 's': 'major'},
+          {'k': '0157C00E318A19DC0A', 'r': 'Rsquid:S106', 'l': 18, 'new': true, 's': 'major'},
+          {'k': '0157C00E318A19DC0B', 'r': 'Rsquid:S106', 'l': 19, 'new': true, 's': 'major'},
+          {'k': '0157C00E318A19DC10', 'r': 'Rsquid:S1481', 'l': 5, 'new': true, 's': 'major'},
+          {'k': '0157C00E318A19DC13', 'r': 'Rsquid:S1854', 'l': 5, 'new': true, 's': 'major'},
+          {'k': 'AVe4VxMAl4H2zPgsh7lh', 'r': 'Rsquid:S1192', 'l': 7, 'new': false, 's': 'minor'},
+          {'k': 'AVe4VxWKl4H2zPgsh7li', 'r': 'Rsquid:S106', 'l': 8, 'new': false, 's': 'major'},
+          {'k': 'AVe4VxWNl4H2zPgsh7lj', 'r': 'Rsquid:S106', 'l': 7, 'new': false, 's': 'major'},
+          {'k': 'AVe4VxWQl4H2zPgsh7lk', 'r': 'Rsquid:S106', 'l': 17, 'new': false, 's': 'major'},
+          {'k': 'AVe4VxWVl4H2zPgsh7ll', 'r': 'Rsquid:UndocumentedApi', 'l': 2, 'new': false, 's': 'minor'},
+          {'k': 'AVe4VxWZl4H2zPgsh7lm', 'r': 'Rsquid:UndocumentedApi', 'l': 3, 'new': false, 's': 'minor'},
+          {'k': 'AVe4VxWcl4H2zPgsh7ln', 'r': 'Rsquid:S1220', 'l': 0, 'new': false, 's': 'minor'},
+          {'k': 'AVe4VxWgl4H2zPgsh7lo', 'r': 'Rsquid:S1118', 'l': 2, 'new': false, 's': 'major'},
+          {'k': 'AVe4ht2-bh2qGH_m0opM', 'r': 'Rsquid:IndentationCheck', 'l': 3, 'new': false, 's': 'minor'},
+          {'k': 'AVe4ht27bh2qGH_m0opL', 'r': 'Rsquid:LeftCurlyBraceStartLineCheck', 'l': 3, 'new': false, 's': 'minor'},
+          {'k': 'AVe4ht2gbh2qGH_m0opK', 'r': 'Rsquid:LeftCurlyBraceStartLineCheck', 'l': 2, 'new': false, 's': 'minor'},
+          {'k': 'AVe4ht3Abh2qGH_m0opN', 'r': 'Rsquid:IndentationCheck', 'l': 4, 'new': false, 's': 'minor'},
+          {'k': 'AVe4ht3Bbh2qGH_m0opO', 'r': 'Rsquid:S00105', 'l': 0, 'new': false, 's': 'minor'},
+          {'k': 'AVe_X8Wte52oSkDlkgdH', 'r': 'Rsquid:S1481', 'l': 4, 'new': false, 's': 'major'},
+          {'k': 'AVe_X8Y9e52oSkDlkgdI', 'r': 'Rsquid:S1854', 'l': 4, 'new': false, 's': 'major'}
       ]
       
     ];
@@ -108,74 +136,74 @@
     var severityFilter = [
        { "key": "minor",
          "label": "Minor",
-         "total": 0,
+         "total": 10,
          "newtotal": 0
        },
        { "key": "major",
          "label": "Major",
-         "total": 0,
-         "newtotal": 0
+         "total": 18,
+         "newtotal": 12
        }
     ];
 
     var ruleFilter = [
        { "key": "squid:S1228",
          "label": "Packages should have a javadoc file \'package-info.java\'",
-         "total": 0,
-         "newtotal": 0
-       },
-       { "key": "squid:S1192",
-         "label": "String literals should not be duplicated",
-         "total": 0,
+         "total": 1,
          "newtotal": 0
        },
        { "key": "squid:S106",
          "label": "Standard outputs should not be used directly to log anything",
-         "total": 0,
+         "total": 13,
+         "newtotal": 10
+       },
+       { "key": "squid:S1481",
+         "label": "Unused local variables should be removed",
+         "total": 2,
+         "newtotal": 1
+       },
+       { "key": "squid:S1854",
+         "label": "Dead stores should be removed",
+         "total": 2,
+         "newtotal": 1
+       },
+       { "key": "squid:S1192",
+         "label": "String literals should not be duplicated",
+         "total": 1,
          "newtotal": 0
        },
        { "key": "squid:UndocumentedApi",
          "label": "Public types, methods and fields (API) should be documented with Javadoc",
-         "total": 0,
+         "total": 2,
          "newtotal": 0
        },
        { "key": "squid:S1220",
          "label": "The default unnamed package should not be used",
-         "total": 0,
+         "total": 1,
          "newtotal": 0
        },
        { "key": "squid:S1118",
          "label": "Utility classes should not have public constructors",
-         "total": 0,
+         "total": 1,
          "newtotal": 0
        },
        { "key": "squid:IndentationCheck",
          "label": "Source code should be indented consistently",
-         "total": 0,
+         "total": 2,
          "newtotal": 0
        },
        { "key": "squid:LeftCurlyBraceStartLineCheck",
          "label": "An open curly brace should be located at the beginning of a line",
-         "total": 0,
+         "total": 2,
          "newtotal": 0
        },
        { "key": "squid:S00105",
          "label": "Tabulation characters should not be used",
-         "total": 0,
+         "total": 1,
          "newtotal": 0
        },
        { "key": "common-java:InsufficientCommentDensity",
          "label": "Source files should have a sufficient density of comment lines",
-         "total": 0,
-         "newtotal": 0
-       },
-       { "key": "squid:S1481",
-         "label": "Unused local variables should be removed",
-         "total": 0,
-         "newtotal": 0
-       },
-       { "key": "squid:S1854",
-         "label": "Dead stores should be removed",
          "total": 0,
          "newtotal": 0
        }
@@ -210,7 +238,7 @@
 <div id="reportHeader">
   <div id="logo"><img src="issuesreport_files/sonarqube-24x100.png" alt="SonarQube"/></div>
   <div class="title">Issues Report</div>
-  <div class="subtitle">Helloworldjava - Oct 13, 2016 11:07:32 PM</div>
+  <div class="subtitle">Helloworldjava - Oct 14, 2016 12:58:54 AM</div>
 </div>
 
 <div id="content">
@@ -222,15 +250,15 @@
     <tr>
       <td align="center" width="33%">
         <h3>New issues</h3>
-        <span class="big">0</span>
+        <span class="big worst">12</span>
       </td>
       <td align="center" width="33%">
         <h3>Resolved issues</h3>
-        <span class="big better">17</span>
+        <span class="big better">1</span>
       </td>
       <td align="center" width="33%" class="all">
         <h3>Issues</h3>
-        <span class="big">0</span>
+        <span class="big">28</span>
       </td>
     </tr>
     </tbody>
@@ -248,6 +276,57 @@
     </tr>
     </thead>
     <tbody>
+      <tr class="hoverable ">
+        <td width="20">
+          <i class="icon-severity-major"></i>
+        </td>
+        <td align="left" title="squid:S106">
+          Standard outputs should not be used directly to log anything
+        </td>
+        <td align="right">
+            <span class="worst">10</span>
+        </td>
+        <td align="right">
+            <span>0</span>
+        </td>
+        <td align="right" class="all">
+          13
+        </td>
+      </tr>
+      <tr class="hoverable ">
+        <td width="20">
+          <i class="icon-severity-major"></i>
+        </td>
+        <td align="left" title="squid:S1481">
+          Unused local variables should be removed
+        </td>
+        <td align="right">
+            <span class="worst">1</span>
+        </td>
+        <td align="right">
+            <span>0</span>
+        </td>
+        <td align="right" class="all">
+          2
+        </td>
+      </tr>
+      <tr class="hoverable ">
+        <td width="20">
+          <i class="icon-severity-major"></i>
+        </td>
+        <td align="left" title="squid:S1854">
+          Dead stores should be removed
+        </td>
+        <td align="right">
+            <span class="worst">1</span>
+        </td>
+        <td align="right">
+            <span>0</span>
+        </td>
+        <td align="right" class="all">
+          2
+        </td>
+      </tr>
       <tr class="hoverable all">
         <td width="20">
           <i class="icon-severity-major"></i>
@@ -269,23 +348,6 @@
         <td width="20">
           <i class="icon-severity-major"></i>
         </td>
-        <td align="left" title="squid:S106">
-          Standard outputs should not be used directly to log anything
-        </td>
-        <td align="right">
-            <span>0</span>
-        </td>
-        <td align="right">
-            <span class="better">3</span>
-        </td>
-        <td align="right" class="all">
-          0
-        </td>
-      </tr>
-      <tr class="hoverable all">
-        <td width="20">
-          <i class="icon-severity-major"></i>
-        </td>
         <td align="left" title="squid:S1118">
           Utility classes should not have public constructors
         </td>
@@ -293,44 +355,10 @@
             <span>0</span>
         </td>
         <td align="right">
-            <span class="better">1</span>
-        </td>
-        <td align="right" class="all">
-          0
-        </td>
-      </tr>
-      <tr class="hoverable all">
-        <td width="20">
-          <i class="icon-severity-major"></i>
-        </td>
-        <td align="left" title="squid:S1481">
-          Unused local variables should be removed
-        </td>
-        <td align="right">
             <span>0</span>
         </td>
-        <td align="right">
-            <span class="better">1</span>
-        </td>
         <td align="right" class="all">
-          0
-        </td>
-      </tr>
-      <tr class="hoverable all">
-        <td width="20">
-          <i class="icon-severity-major"></i>
-        </td>
-        <td align="left" title="squid:S1854">
-          Dead stores should be removed
-        </td>
-        <td align="right">
-            <span>0</span>
-        </td>
-        <td align="right">
-            <span class="better">1</span>
-        </td>
-        <td align="right" class="all">
-          0
+          1
         </td>
       </tr>
       <tr class="hoverable all">
@@ -344,10 +372,10 @@
             <span>0</span>
         </td>
         <td align="right">
-            <span class="better">2</span>
+            <span>0</span>
         </td>
         <td align="right" class="all">
-          0
+          2
         </td>
       </tr>
       <tr class="hoverable all">
@@ -361,10 +389,10 @@
             <span>0</span>
         </td>
         <td align="right">
-            <span class="better">2</span>
+            <span>0</span>
         </td>
         <td align="right" class="all">
-          0
+          2
         </td>
       </tr>
       <tr class="hoverable all">
@@ -378,10 +406,10 @@
             <span>0</span>
         </td>
         <td align="right">
-            <span class="better">1</span>
+            <span>0</span>
         </td>
         <td align="right" class="all">
-          0
+          1
         </td>
       </tr>
       <tr class="hoverable all">
@@ -395,10 +423,10 @@
             <span>0</span>
         </td>
         <td align="right">
-            <span class="better">1</span>
+            <span>0</span>
         </td>
         <td align="right" class="all">
-          0
+          1
         </td>
       </tr>
       <tr class="hoverable all">
@@ -412,10 +440,10 @@
             <span>0</span>
         </td>
         <td align="right">
-            <span class="better">1</span>
+            <span>0</span>
         </td>
         <td align="right" class="all">
-          0
+          1
         </td>
       </tr>
       <tr class="hoverable all">
@@ -429,10 +457,10 @@
             <span>0</span>
         </td>
         <td align="right">
-            <span class="better">1</span>
+            <span>0</span>
         </td>
         <td align="right" class="all">
-          0
+          1
         </td>
       </tr>
       <tr class="hoverable all">
@@ -446,10 +474,10 @@
             <span>0</span>
         </td>
         <td align="right">
-            <span class="better">2</span>
+            <span>0</span>
         </td>
         <td align="right" class="all">
-          0
+          2
         </td>
       </tr>
     </tbody>
@@ -482,11 +510,11 @@
         <br/>New issues
       </th>
       <th align="right" width="1%" nowrap class="resource-details-0">
-          <span class="better" id="resolved-total">1</span>
+          <span id="resolved-total">0</span>
         <br/>Resolved issues
       </th>
       <th align="right" width="1%" nowrap class="resource-details-0 all">
-        <span id="current-total">0</span><br/>Issues
+        <span id="current-total">1</span><br/>Issues
       </th>
     </tr>
     </thead>
@@ -502,10 +530,35 @@
             <span>0</span>
         </td>
         <td align="right">
-            <span class="better">1</span>
+            <span>0</span>
         </td>
         <td align="right" class="all">
-          0
+          1
+        </td>
+      </tr>
+      <tr class="globalIssues">
+        <td colspan="5">
+            <div class="issue" id="AVe4ht4Ubh2qGH_m0opP">
+              <div class="vtitle">
+                <i class="icon-severity-minor"></i>
+                <span class="rulename">Add a 'package-info.java' file to document the 'java' package</span>
+                &nbsp;
+                <img src="issuesreport_files/sep12.png">&nbsp;
+
+                <span class="issue_date">
+                    Oct 12, 2016
+                </span>
+                
+                &nbsp;
+                <img src="issuesreport_files/sep12.png">&nbsp;
+                
+                <span class="rule_key">squid:S1228</span>
+                
+              </div>
+              <div class="discussionComment">
+              Packages should have a javadoc file 'package-info.java'
+              </div>
+            </div>
         </td>
       </tr>
       <tr>
@@ -516,7 +569,7 @@
       </tr>
     </tbody>
   </table>
-  <table width="100%" class="data all" id="resource-1">
+  <table width="100%" class="data " id="resource-1">
     <thead>
     <tr class="total">
       <th align="left" colspan="2" nowrap>
@@ -526,19 +579,70 @@
         </div>
       </th>
       <th align="right" width="1%" nowrap class="resource-details-1">
-          <span id="new-total">0</span>
+          <span class="worst" id="new-total">12</span>
         <br/>New issues
       </th>
       <th align="right" width="1%" nowrap class="resource-details-1">
-          <span class="better" id="resolved-total">16</span>
+          <span class="better" id="resolved-total">1</span>
         <br/>Resolved issues
       </th>
       <th align="right" width="1%" nowrap class="resource-details-1 all">
-        <span id="current-total">0</span><br/>Issues
+        <span id="current-total">27</span><br/>Issues
       </th>
     </tr>
     </thead>
     <tbody class="resource-details-1">
+      <tr class="hoverable all">
+        <td width="20">
+          <i class="icon-severity-major"></i>
+        </td>
+        <td align="left" title="squid:S106">
+          Standard outputs should not be used directly to log anything
+        </td>
+        <td align="right">
+            <span class="worst">10</span>
+        </td>
+        <td align="right">
+            <span>0</span>
+        </td>
+        <td align="right" class="all">
+          13
+        </td>
+      </tr>
+      <tr class="hoverable all">
+        <td width="20">
+          <i class="icon-severity-major"></i>
+        </td>
+        <td align="left" title="squid:S1481">
+          Unused local variables should be removed
+        </td>
+        <td align="right">
+            <span class="worst">1</span>
+        </td>
+        <td align="right">
+            <span>0</span>
+        </td>
+        <td align="right" class="all">
+          2
+        </td>
+      </tr>
+      <tr class="hoverable all">
+        <td width="20">
+          <i class="icon-severity-major"></i>
+        </td>
+        <td align="left" title="squid:S1854">
+          Dead stores should be removed
+        </td>
+        <td align="right">
+            <span class="worst">1</span>
+        </td>
+        <td align="right">
+            <span>0</span>
+        </td>
+        <td align="right" class="all">
+          2
+        </td>
+      </tr>
       <tr class="hoverable all">
         <td width="20">
           <i class="icon-severity-major"></i>
@@ -560,23 +664,6 @@
         <td width="20">
           <i class="icon-severity-major"></i>
         </td>
-        <td align="left" title="squid:S106">
-          Standard outputs should not be used directly to log anything
-        </td>
-        <td align="right">
-            <span>0</span>
-        </td>
-        <td align="right">
-            <span class="better">3</span>
-        </td>
-        <td align="right" class="all">
-          0
-        </td>
-      </tr>
-      <tr class="hoverable all">
-        <td width="20">
-          <i class="icon-severity-major"></i>
-        </td>
         <td align="left" title="squid:S1118">
           Utility classes should not have public constructors
         </td>
@@ -584,44 +671,10 @@
             <span>0</span>
         </td>
         <td align="right">
-            <span class="better">1</span>
-        </td>
-        <td align="right" class="all">
-          0
-        </td>
-      </tr>
-      <tr class="hoverable all">
-        <td width="20">
-          <i class="icon-severity-major"></i>
-        </td>
-        <td align="left" title="squid:S1481">
-          Unused local variables should be removed
-        </td>
-        <td align="right">
             <span>0</span>
         </td>
-        <td align="right">
-            <span class="better">1</span>
-        </td>
         <td align="right" class="all">
-          0
-        </td>
-      </tr>
-      <tr class="hoverable all">
-        <td width="20">
-          <i class="icon-severity-major"></i>
-        </td>
-        <td align="left" title="squid:S1854">
-          Dead stores should be removed
-        </td>
-        <td align="right">
-            <span>0</span>
-        </td>
-        <td align="right">
-            <span class="better">1</span>
-        </td>
-        <td align="right" class="all">
-          0
+          1
         </td>
       </tr>
       <tr class="hoverable all">
@@ -635,10 +688,10 @@
             <span>0</span>
         </td>
         <td align="right">
-            <span class="better">2</span>
+            <span>0</span>
         </td>
         <td align="right" class="all">
-          0
+          2
         </td>
       </tr>
       <tr class="hoverable all">
@@ -652,10 +705,10 @@
             <span>0</span>
         </td>
         <td align="right">
-            <span class="better">2</span>
+            <span>0</span>
         </td>
         <td align="right" class="all">
-          0
+          2
         </td>
       </tr>
       <tr class="hoverable all">
@@ -669,10 +722,10 @@
             <span>0</span>
         </td>
         <td align="right">
-            <span class="better">1</span>
+            <span>0</span>
         </td>
         <td align="right" class="all">
-          0
+          1
         </td>
       </tr>
       <tr class="hoverable all">
@@ -686,10 +739,10 @@
             <span>0</span>
         </td>
         <td align="right">
-            <span class="better">1</span>
+            <span>0</span>
         </td>
         <td align="right" class="all">
-          0
+          1
         </td>
       </tr>
       <tr class="hoverable all">
@@ -703,10 +756,10 @@
             <span>0</span>
         </td>
         <td align="right">
-            <span class="better">1</span>
+            <span>0</span>
         </td>
         <td align="right" class="all">
-          0
+          1
         </td>
       </tr>
       <tr class="hoverable all">
@@ -720,15 +773,885 @@
             <span>0</span>
         </td>
         <td align="right">
-            <span class="better">2</span>
+            <span>0</span>
         </td>
         <td align="right" class="all">
-          0
+          2
+        </td>
+      </tr>
+      <tr class="globalIssues">
+        <td colspan="5">
+            <div class="issue" id="AVe4VxWcl4H2zPgsh7ln">
+              <div class="vtitle">
+                <i class="icon-severity-minor"></i>
+                <span class="rulename">Move this file to a named package.</span>
+                &nbsp;
+                <img src="issuesreport_files/sep12.png">&nbsp;
+
+                <span class="issue_date">
+                    Oct 12, 2016
+                </span>
+                
+                &nbsp;
+                <img src="issuesreport_files/sep12.png">&nbsp;
+                
+                <span class="rule_key">squid:S1220</span>
+                
+              </div>
+              <div class="discussionComment">
+              The default unnamed package should not be used
+              </div>
+            </div>
+            <div class="issue" id="AVe4ht3Bbh2qGH_m0opO">
+              <div class="vtitle">
+                <i class="icon-severity-minor"></i>
+                <span class="rulename">Replace all tab characters in this file by sequences of white-spaces.</span>
+                &nbsp;
+                <img src="issuesreport_files/sep12.png">&nbsp;
+
+                <span class="issue_date">
+                    Oct 12, 2016
+                </span>
+                
+                &nbsp;
+                <img src="issuesreport_files/sep12.png">&nbsp;
+                
+                <span class="rule_key">squid:S00105</span>
+                
+              </div>
+              <div class="discussionComment">
+              Tabulation characters should not be used
+              </div>
+            </div>
         </td>
       </tr>
       <tr>
         <td colspan="5">
           <table class="sources" border="0" cellpadding="0" cellspacing="0">
+                <tr id="1L1" class="row">
+                  <td class="lid ">1</td>
+                  <td class="line ">
+                    <pre></pre>
+                  </td>
+                </tr>
+                <tr id="1S1" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="1L2" class="row">
+                  <td class="lid ">2</td>
+                  <td class="line ">
+                    <pre>public class HelloWorld {</pre>
+                  </td>
+                </tr>
+                <tr id="1S2" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                  <tr id="1LV2" class="row">
+                    <td class="lid"></td>
+                    <td class="issues">
+                        <div class="issue" id="AVe4VxWVl4H2zPgsh7ll">
+                          <div class="vtitle">
+                            <i class="icon-severity-minor"></i>
+                            <span class="rulename">Document this public class.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                Oct 12, 2016
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">squid:UndocumentedApi</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Public types, methods and fields (API) should be documented with Javadoc
+                          </div>
+                        </div>
+                        <div class="issue" id="AVe4VxWgl4H2zPgsh7lo">
+                          <div class="vtitle">
+                            <i class="icon-severity-major"></i>
+                            <span class="rulename">Add a private constructor to hide the implicit public one.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                Oct 12, 2016
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">squid:S1118</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Utility classes should not have public constructors
+                          </div>
+                        </div>
+                        <div class="issue" id="AVe4ht2gbh2qGH_m0opK">
+                          <div class="vtitle">
+                            <i class="icon-severity-minor"></i>
+                            <span class="rulename">Move this left curly brace to the beginning of next line of code.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                Oct 12, 2016
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">squid:LeftCurlyBraceStartLineCheck</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            An open curly brace should be located at the beginning of a line
+                          </div>
+                        </div>
+                    </td>
+                  </tr>
+                <tr id="1L3" class="row">
+                  <td class="lid ">3</td>
+                  <td class="line ">
+                    <pre>    public static void main(String[] args) {</pre>
+                  </td>
+                </tr>
+                <tr id="1S3" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                  <tr id="1LV3" class="row">
+                    <td class="lid"></td>
+                    <td class="issues">
+                        <div class="issue" id="AVe4VxWZl4H2zPgsh7lm">
+                          <div class="vtitle">
+                            <i class="icon-severity-minor"></i>
+                            <span class="rulename">Document this public method.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                Oct 12, 2016
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">squid:UndocumentedApi</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Public types, methods and fields (API) should be documented with Javadoc
+                          </div>
+                        </div>
+                        <div class="issue" id="AVe4ht2-bh2qGH_m0opM">
+                          <div class="vtitle">
+                            <i class="icon-severity-minor"></i>
+                            <span class="rulename">Make this line start at column 3.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                Oct 12, 2016
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">squid:IndentationCheck</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Source code should be indented consistently
+                          </div>
+                        </div>
+                        <div class="issue" id="AVe4ht27bh2qGH_m0opL">
+                          <div class="vtitle">
+                            <i class="icon-severity-minor"></i>
+                            <span class="rulename">Move this left curly brace to the beginning of next line of code.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                Oct 12, 2016
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">squid:LeftCurlyBraceStartLineCheck</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            An open curly brace should be located at the beginning of a line
+                          </div>
+                        </div>
+                    </td>
+                  </tr>
+                <tr id="1L4" class="row">
+                  <td class="lid ">4</td>
+                  <td class="line ">
+                    <pre>	String myTimeString = &quot;test error&quot;;</pre>
+                  </td>
+                </tr>
+                <tr id="1S4" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                  <tr id="1LV4" class="row">
+                    <td class="lid"></td>
+                    <td class="issues">
+                        <div class="issue" id="AVe4ht3Abh2qGH_m0opN">
+                          <div class="vtitle">
+                            <i class="icon-severity-minor"></i>
+                            <span class="rulename">Make this line start at column 5.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                Oct 12, 2016
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">squid:IndentationCheck</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Source code should be indented consistently
+                          </div>
+                        </div>
+                        <div class="issue" id="AVe_X8Wte52oSkDlkgdH">
+                          <div class="vtitle">
+                            <i class="icon-severity-major"></i>
+                            <span class="rulename">Remove this unused &quot;myTimeString&quot; local variable.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                Oct 13, 2016
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">squid:S1481</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Unused local variables should be removed
+                          </div>
+                        </div>
+                        <div class="issue" id="AVe_X8Y9e52oSkDlkgdI">
+                          <div class="vtitle">
+                            <i class="icon-severity-major"></i>
+                            <span class="rulename">Remove this useless assignment to local variable &quot;myTimeString&quot;.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                Oct 13, 2016
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">squid:S1854</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Dead stores should be removed
+                          </div>
+                        </div>
+                    </td>
+                  </tr>
+                <tr id="1L5" class="row">
+                  <td class="lid ">5</td>
+                  <td class="line ">
+                    <pre>	String myTimeString1 = &quot;test error&quot;;</pre>
+                  </td>
+                </tr>
+                <tr id="1S5" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                  <tr id="1LV5" class="row">
+                    <td class="lid"></td>
+                    <td class="issues">
+                        <div class="issue" id="0157C00E318A19DC10">
+                          <div class="vtitle">
+                            <i class="icon-severity-major"></i>
+                            <span class="rulename">Remove this unused &quot;myTimeString1&quot; local variable.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                NEW
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">squid:S1481</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Unused local variables should be removed
+                          </div>
+                        </div>
+                        <div class="issue" id="0157C00E318A19DC13">
+                          <div class="vtitle">
+                            <i class="icon-severity-major"></i>
+                            <span class="rulename">Remove this useless assignment to local variable &quot;myTimeString1&quot;.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                NEW
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">squid:S1854</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Dead stores should be removed
+                          </div>
+                        </div>
+                    </td>
+                  </tr>
+                <tr id="1L6" class="row">
+                  <td class="lid ">6</td>
+                  <td class="line ">
+                    <pre></pre>
+                  </td>
+                </tr>
+                <tr id="1S6" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="1L7" class="row">
+                  <td class="lid ">7</td>
+                  <td class="line ">
+                    <pre>	System.out.println(&quot;hello world&quot;);</pre>
+                  </td>
+                </tr>
+                <tr id="1S7" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                  <tr id="1LV7" class="row">
+                    <td class="lid"></td>
+                    <td class="issues">
+                        <div class="issue" id="AVe4VxMAl4H2zPgsh7lh">
+                          <div class="vtitle">
+                            <i class="icon-severity-minor"></i>
+                            <span class="rulename">Define a constant instead of duplicating this literal &quot;hello world&quot; 13 times.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                Oct 12, 2016
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">squid:S1192</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            String literals should not be duplicated
+                          </div>
+                        </div>
+                        <div class="issue" id="AVe4VxWNl4H2zPgsh7lj">
+                          <div class="vtitle">
+                            <i class="icon-severity-major"></i>
+                            <span class="rulename">Replace this usage of System.out or System.err by a logger.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                Oct 12, 2016
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">squid:S106</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Standard outputs should not be used directly to log anything
+                          </div>
+                        </div>
+                    </td>
+                  </tr>
+                <tr id="1L8" class="row">
+                  <td class="lid ">8</td>
+                  <td class="line ">
+                    <pre>	System.out.println(&quot;hello world&quot;);</pre>
+                  </td>
+                </tr>
+                <tr id="1S8" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                  <tr id="1LV8" class="row">
+                    <td class="lid"></td>
+                    <td class="issues">
+                        <div class="issue" id="AVe4VxWKl4H2zPgsh7li">
+                          <div class="vtitle">
+                            <i class="icon-severity-major"></i>
+                            <span class="rulename">Replace this usage of System.out or System.err by a logger.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                Oct 12, 2016
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">squid:S106</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Standard outputs should not be used directly to log anything
+                          </div>
+                        </div>
+                    </td>
+                  </tr>
+                <tr id="1L9" class="row">
+                  <td class="lid ">9</td>
+                  <td class="line ">
+                    <pre>	System.out.println(&quot;hello world&quot;);</pre>
+                  </td>
+                </tr>
+                <tr id="1S9" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                  <tr id="1LV9" class="row">
+                    <td class="lid"></td>
+                    <td class="issues">
+                        <div class="issue" id="0157C00E318A19DC01">
+                          <div class="vtitle">
+                            <i class="icon-severity-major"></i>
+                            <span class="rulename">Replace this usage of System.out or System.err by a logger.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                NEW
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">squid:S106</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Standard outputs should not be used directly to log anything
+                          </div>
+                        </div>
+                    </td>
+                  </tr>
+                <tr id="1L10" class="row">
+                  <td class="lid ">10</td>
+                  <td class="line ">
+                    <pre>	System.out.println(&quot;hello world&quot;);</pre>
+                  </td>
+                </tr>
+                <tr id="1S10" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                  <tr id="1LV10" class="row">
+                    <td class="lid"></td>
+                    <td class="issues">
+                        <div class="issue" id="0157C00E318A19DC02">
+                          <div class="vtitle">
+                            <i class="icon-severity-major"></i>
+                            <span class="rulename">Replace this usage of System.out or System.err by a logger.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                NEW
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">squid:S106</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Standard outputs should not be used directly to log anything
+                          </div>
+                        </div>
+                    </td>
+                  </tr>
+                <tr id="1L11" class="row">
+                  <td class="lid ">11</td>
+                  <td class="line ">
+                    <pre>	System.out.println(&quot;hello world&quot;);</pre>
+                  </td>
+                </tr>
+                <tr id="1S11" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                  <tr id="1LV11" class="row">
+                    <td class="lid"></td>
+                    <td class="issues">
+                        <div class="issue" id="0157C00E318A19DC03">
+                          <div class="vtitle">
+                            <i class="icon-severity-major"></i>
+                            <span class="rulename">Replace this usage of System.out or System.err by a logger.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                NEW
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">squid:S106</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Standard outputs should not be used directly to log anything
+                          </div>
+                        </div>
+                    </td>
+                  </tr>
+                <tr id="1L12" class="row">
+                  <td class="lid ">12</td>
+                  <td class="line ">
+                    <pre>	System.out.println(&quot;hello world&quot;);</pre>
+                  </td>
+                </tr>
+                <tr id="1S12" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                  <tr id="1LV12" class="row">
+                    <td class="lid"></td>
+                    <td class="issues">
+                        <div class="issue" id="0157C00E318A19DC04">
+                          <div class="vtitle">
+                            <i class="icon-severity-major"></i>
+                            <span class="rulename">Replace this usage of System.out or System.err by a logger.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                NEW
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">squid:S106</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Standard outputs should not be used directly to log anything
+                          </div>
+                        </div>
+                    </td>
+                  </tr>
+                <tr id="1L13" class="row">
+                  <td class="lid ">13</td>
+                  <td class="line ">
+                    <pre>	System.out.println(&quot;hello world&quot;);</pre>
+                  </td>
+                </tr>
+                <tr id="1S13" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                  <tr id="1LV13" class="row">
+                    <td class="lid"></td>
+                    <td class="issues">
+                        <div class="issue" id="0157C00E318A19DC05">
+                          <div class="vtitle">
+                            <i class="icon-severity-major"></i>
+                            <span class="rulename">Replace this usage of System.out or System.err by a logger.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                NEW
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">squid:S106</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Standard outputs should not be used directly to log anything
+                          </div>
+                        </div>
+                    </td>
+                  </tr>
+                <tr id="1L14" class="row">
+                  <td class="lid ">14</td>
+                  <td class="line ">
+                    <pre>	System.out.println(&quot;hello world&quot;);</pre>
+                  </td>
+                </tr>
+                <tr id="1S14" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                  <tr id="1LV14" class="row">
+                    <td class="lid"></td>
+                    <td class="issues">
+                        <div class="issue" id="0157C00E318A19DC06">
+                          <div class="vtitle">
+                            <i class="icon-severity-major"></i>
+                            <span class="rulename">Replace this usage of System.out or System.err by a logger.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                NEW
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">squid:S106</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Standard outputs should not be used directly to log anything
+                          </div>
+                        </div>
+                    </td>
+                  </tr>
+                <tr id="1L15" class="row">
+                  <td class="lid ">15</td>
+                  <td class="line ">
+                    <pre>	System.out.println(&quot;hello world&quot;);</pre>
+                  </td>
+                </tr>
+                <tr id="1S15" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                  <tr id="1LV15" class="row">
+                    <td class="lid"></td>
+                    <td class="issues">
+                        <div class="issue" id="0157C00E318A19DC07">
+                          <div class="vtitle">
+                            <i class="icon-severity-major"></i>
+                            <span class="rulename">Replace this usage of System.out or System.err by a logger.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                NEW
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">squid:S106</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Standard outputs should not be used directly to log anything
+                          </div>
+                        </div>
+                    </td>
+                  </tr>
+                <tr id="1L16" class="row">
+                  <td class="lid ">16</td>
+                  <td class="line ">
+                    <pre>	System.out.println(&quot;hello world&quot;);</pre>
+                  </td>
+                </tr>
+                <tr id="1S16" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                  <tr id="1LV16" class="row">
+                    <td class="lid"></td>
+                    <td class="issues">
+                        <div class="issue" id="0157C00E318A19DC08">
+                          <div class="vtitle">
+                            <i class="icon-severity-major"></i>
+                            <span class="rulename">Replace this usage of System.out or System.err by a logger.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                NEW
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">squid:S106</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Standard outputs should not be used directly to log anything
+                          </div>
+                        </div>
+                    </td>
+                  </tr>
+                <tr id="1L17" class="row">
+                  <td class="lid ">17</td>
+                  <td class="line ">
+                    <pre>	System.out.println(&quot;hello world&quot;);</pre>
+                  </td>
+                </tr>
+                <tr id="1S17" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                  <tr id="1LV17" class="row">
+                    <td class="lid"></td>
+                    <td class="issues">
+                        <div class="issue" id="AVe4VxWQl4H2zPgsh7lk">
+                          <div class="vtitle">
+                            <i class="icon-severity-major"></i>
+                            <span class="rulename">Replace this usage of System.out or System.err by a logger.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                Oct 12, 2016
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">squid:S106</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Standard outputs should not be used directly to log anything
+                          </div>
+                        </div>
+                    </td>
+                  </tr>
+                <tr id="1L18" class="row">
+                  <td class="lid ">18</td>
+                  <td class="line ">
+                    <pre>	System.out.println(&quot;hello world&quot;);</pre>
+                  </td>
+                </tr>
+                <tr id="1S18" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                  <tr id="1LV18" class="row">
+                    <td class="lid"></td>
+                    <td class="issues">
+                        <div class="issue" id="0157C00E318A19DC0A">
+                          <div class="vtitle">
+                            <i class="icon-severity-major"></i>
+                            <span class="rulename">Replace this usage of System.out or System.err by a logger.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                NEW
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">squid:S106</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Standard outputs should not be used directly to log anything
+                          </div>
+                        </div>
+                    </td>
+                  </tr>
+                <tr id="1L19" class="row">
+                  <td class="lid ">19</td>
+                  <td class="line ">
+                    <pre>	System.out.println(&quot;hello world&quot;);</pre>
+                  </td>
+                </tr>
+                <tr id="1S19" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                  <tr id="1LV19" class="row">
+                    <td class="lid"></td>
+                    <td class="issues">
+                        <div class="issue" id="0157C00E318A19DC0B">
+                          <div class="vtitle">
+                            <i class="icon-severity-major"></i>
+                            <span class="rulename">Replace this usage of System.out or System.err by a logger.</span>
+                            &nbsp;
+                            <img src="issuesreport_files/sep12.png">&nbsp;
+
+                            <span class="issue_date">
+                                NEW
+                            </span>
+                
+						                &nbsp;
+						                <img src="issuesreport_files/sep12.png">&nbsp;
+						                
+						                <span class="rule_key">squid:S106</span>
+                            &nbsp;
+
+                          </div>
+                          <div class="discussionComment">
+                            Standard outputs should not be used directly to log anything
+                          </div>
+                        </div>
+                    </td>
+                  </tr>
+                <tr id="1L20" class="row">
+                  <td class="lid ">20</td>
+                  <td class="line ">
+                    <pre>    }</pre>
+                  </td>
+                </tr>
+                <tr id="1S20" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
+                <tr id="1L21" class="row">
+                  <td class="lid ">21</td>
+                  <td class="line ">
+                    <pre>}</pre>
+                  </td>
+                </tr>
+                <tr id="1S21" class="blockSep">
+                  <td colspan="2"></td>
+                </tr>
           </table>
         </td>
       </tr>
